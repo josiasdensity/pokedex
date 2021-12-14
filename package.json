@@ -1,7 +1,7 @@
 {
-  "name": "pokedex-library",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pokedex-lib",
+  "version": "1.00",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -73,6 +73,12 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
     "@types/styled-components": "^5.1.15",
+    "auto": "^10.32.5",
     "cross-env": "^7.0.3"
-  }
+  },
+  "description": "pokedex",
+  "main": "dist/index.js",
+  "repository": "https://github.com/josiasdensity/pokedex.git",
+  "author": " josias.ortiz@densitylabs.io",
+  "license": "MIT"
 }
